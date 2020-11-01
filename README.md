@@ -1,8 +1,5 @@
 # FlearnCo API
 
-Template API Rails 6 project
-Replace every occurrence of `FlearnCo` with the app name you want in this format, and replace every occurrence of`flearn_co` with the same app name in this underline format.
-
 Gems used:
 ```
   coverband
