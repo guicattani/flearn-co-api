@@ -1,7 +1,7 @@
-# TemplateApp API
+# FlearnCo API
 
 Template API Rails 6 project
-Replace every occurrence of `TemplateApp` with the app name you want in this format, and replace every occurrence of`template_app` with the same app name in this underline format.
+Replace every occurrence of `FlearnCo` with the app name you want in this format, and replace every occurrence of`flearn_co` with the same app name in this underline format.
 
 Gems used:
 ```
@@ -25,7 +25,7 @@ Gems used:
   Environment variables are stored in `.env`. A sample file was provided, run `mv .env.sample .env` to rename it so `rails-dotenv` can read them in runtime.
 
 - Database
-  TemplateApp API uses PostgreSQL by default. Create and migrate the database with:
+  FlearnCo API uses PostgreSQL by default. Create and migrate the database with:
   ```
   rails db:create
   rails db:migrate
