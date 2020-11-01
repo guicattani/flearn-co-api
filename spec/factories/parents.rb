@@ -2,6 +2,6 @@
 
 FactoryBot.define do
   factory :parent do
-    name "Siclano"
+    name { "Siclano" }
   end
 end

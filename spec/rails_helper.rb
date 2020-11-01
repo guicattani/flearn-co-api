@@ -7,7 +7,6 @@ abort('Rails is running in production mode!') if Rails.env.production?
 require 'simplecov'
 require 'rspec/rails'
 require 'factory_bot_rails'
-require 'shoulda/matchers'
 require 'database_cleaner'
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].sort.each { |f| require f }
@@ -39,5 +38,12 @@ RSpec.configure do |config|
 
   config.after(:each) do
     DatabaseCleaner.clean
+  end
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
   end
 end

@@ -33,7 +33,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'rspec-rails'
-  gem 'shoulda-matchers', require: false
+  gem 'shoulda-matchers'
   gem 'simplecov'
 end
 
