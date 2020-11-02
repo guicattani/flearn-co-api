@@ -2,7 +2,9 @@
 
 FactoryBot.define do
   factory :student do
-    name { "Beltrano" }
+    sequence :name do |n|
+      "Beltrano#{n}"
+    end
     sequence :email do |n|
       "user#{n}@flearn.com"
     end

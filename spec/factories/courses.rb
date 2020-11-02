@@ -2,6 +2,8 @@
 
 FactoryBot.define do
   factory :course do
-    name { "MyString" }
+    sequence :name do |n|
+      "course#{n}"
+    end
   end
 end

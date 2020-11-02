@@ -12,7 +12,7 @@ class Student < User
 
   private
 
-  def set_teacher_role
+  def set_student_role
     self[:role] = STUDENT
   end
 end
